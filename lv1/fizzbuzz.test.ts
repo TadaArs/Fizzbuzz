@@ -32,5 +32,16 @@ describe('fizzbuzz', ()=>{
 
         //Assert
         expect(result).toEqual('fizz')
+    }),
+
+    it('should return 4', ()=>{
+        //Arrange
+        const number = 4
+
+        //Act
+        const result = fizzBuzz(number)
+
+        //Assert
+        expect(result).toEqual('4')
     })
 })
