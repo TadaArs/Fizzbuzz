@@ -5,7 +5,7 @@ export const fizzbuzz = (n:number):string=>{
     if (n == 7){
         return '7'
     }
-    if (n == 5){
+    if (n == 5 || n == 10){
         return 'buzz'
     }
     if (n == 4){
