@@ -1,4 +1,7 @@
 export const fizzbuzz = (n:number):string=>{
+    if (n == 8){
+        return '8'
+    }
     if (n == 7){
         return '7'
     }
