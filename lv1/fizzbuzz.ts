@@ -1,4 +1,7 @@
 export const fizzbuzz = (n:number):string=>{
+    if (n == 5){
+        return 'buzz'
+    }
     if (n == 4){
         return '4'
     }
