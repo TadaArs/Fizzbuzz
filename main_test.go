@@ -122,4 +122,14 @@ func TestFizzBuzz(t *testing.T) {
 			t.Errorf("want %v but get %v", want, get)
 		}
 	})
+
+	t.Run("should return string of 13 when input 13", func(t *testing.T) {
+		input := 13
+		want := "13"
+
+		get := fizzbuzz(input)
+		if want != get {
+			t.Errorf("want %v but get %v", want, get)
+		}
+	})
 }
